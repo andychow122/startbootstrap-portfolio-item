@@ -1,4 +1,4 @@
-/*!
+!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -514,6 +514,35 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.tempphoto {
+  max-width: 70%;
+  height: auto;
+}
+
+/*social*/
+
+.social {
+  height: 60px;
+  width: auto;
+  margin-top: 8px;
+  margin-right: 5px;
+
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.sidebar {
+  /*background: #fff;*/
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  /*float: right;*/
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
 }
 
 .img-thumbnail {
@@ -8182,4 +8211,4 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important;
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map 
